@@ -8,10 +8,13 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Subscribe For My Weekly Newsletter
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          Riders on the strom
+        </p>
+        <p className='footer-subscription-text'>
+         Leadership lessons from high seas and beyond..
         </p>
         <div className='input-areas'>
           <form>
@@ -44,13 +47,13 @@ function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
+          {/* <div className='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
             <Link to='/'>Ambassadors</Link>
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
-          </div>
+          </div> */}
           <div className='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
@@ -64,11 +67,12 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i className='fab fa-typo3' />
+            Campus2Industry
+              {/* <i className='fab fa-typo3' /> */}
             </Link>
           </div>
-          <small className='website-rights'>TRVL © 2020</small>
+          <small className='website-rights'>Copyright @2024 All rights reserved | Rabindra Sah
+          </small>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
